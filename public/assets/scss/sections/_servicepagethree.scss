@@ -1,0 +1,61 @@
+.servicepagethree-content {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -3%;
+    line-height: 20px;
+}
+
+// .servciepagethree-list{
+//     list-style: none;
+//     color: black;
+// }
+
+
+.servicepagethree-title{
+    margin-bottom: 5%;
+}
+.servciepagethree-list {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0; /* Remove any default padding */
+    color: black;
+    font-weight: 600;
+  }
+  
+  .servciepagethree-list li {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Center the image and text vertically */
+    margin-bottom: 15px; /* Add margin at the bottom of each list item */
+  }
+  
+  .Servicepagethree-img1 {
+    /* Add any styling you need for the image here */
+    margin-right: 10px; /* Add some space between the image and text */
+    width: 7%;
+    // height: 30px;
+  }
+  
+
+  // .Servicepagethree-img1{
+  //   margin-top: 5%;
+  // }
+
+
+
+  .Servicepagetwoimg-img{
+    margin-left: 30%;
+    height: 100%;
+    width: 80%;
+    margin-top: 10%;
+  }
+
+
+  .servicepagethree-title{
+    margin-left: 20%;
+  }
+
+
+  .servciepagethree-list{
+    margin-left: 20%;
+  }

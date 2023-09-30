@@ -1,0 +1,148 @@
+.servicepagefour-title{
+    font-size: 60px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.servicepage-section-title{
+    width: 85%;
+    height: 20%;
+}
+
+.servicepagefour-content{
+    width: 150%;
+    font-size: 14px;
+    margin-top: 1%;
+    margin-bottom: 7%;
+}
+
+.form-control::placeholder {
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+  }
+
+  .Servicepagefour-img{
+    // margin-left: 40%;
+    height: 80%;
+    width: 80%;
+  }
+
+
+ .btn-border-base{
+    width: 12%;
+     border-width: 2px;
+    //  float: left;
+     margin-left: 0%;
+ }
+
+
+
+
+ .btn-border-base15{
+ border-radius: 10px;
+ color: white;
+ background-color: #088759;
+ border: 2px solid var(#088759);
+ line-height: 52px;
+ &:after {
+   background: var(--main-color);
+ }
+ &:hover,
+ &:focus {
+   color: #fff;
+ }
+}
+
+
+
+.btn-border-base16{
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    background-color: #088759;
+    border: 2px solid var(#088759);
+    line-height: 52px;
+    &:after {
+      background: var(--main-color);
+    }
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+   }
+
+
+   
+.btn-border-base18{
+  border-radius: 10px;
+  color: white;
+  width: 14%;
+  // align-items: center;
+  margin-left: 40%;
+  background-color: #088759;
+  border: 2px solid var(#088759);
+  line-height: 52px;
+  &:after {
+    background: var(--main-color);
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+ }
+
+
+ .btn-border-base19{
+  border-radius: 10px;
+  color: white;
+  width: 36%;
+  // align-items: center;
+  margin-left: 40%;
+  background-color: #088759;
+  border: 2px solid var(#088759);
+  line-height: 52px;
+  &:after {
+    background: var(--main-color);
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+ }
+
+   
+.btn-border-base17{
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    float: left;
+    padding: 2px;
+    background-color: #088759;
+    border: 2px solid var(#088759);
+    line-height: 52px;
+    &:after {
+      background: var(--main-color);
+    }
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+   }
+
+
+
+.servicepagefour-container{
+    padding: 0% 10%;
+    margin-left: 10%;
+}
+
+
+
+
+
+.image-text-container{
+   
+    margin-top: 10%;
+  }

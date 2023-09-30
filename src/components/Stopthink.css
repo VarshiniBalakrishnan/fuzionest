@@ -1,0 +1,66 @@
+
+.stopthink {
+    background-color: #253284;
+   display: flex;
+    
+    text-align: center;
+  }
+  
+  .content {
+    /* display: flex; */
+    align-items: center;
+  }
+
+  .stopthinkheading {
+    font-size: 38px;
+    width: 115%;
+    color: white;
+    text-align: center;
+    margin-left: -10%;
+    /* padding: 0 10%; */
+  }
+  
+  .stopthinkpara {
+    font-size: 15px;
+    margin-top: -1%;
+    width: 117%;
+    color: white;
+    text-align: center;
+    margin-left: -10%;
+    /* margin-left: -15%; */
+  }
+  
+  .left-image,
+  .right-image {
+    width: 100px; /* Adjust image width as needed */
+  }
+  
+  .text-content {
+    flex: 1;
+    color: white;
+    padding: 0 20px; /* Add some padding to the text content */
+  }
+  
+#stopthinkimage{
+  
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+  .stopthinkbtn {
+    /* padding: 0 8px; */
+    margin-top: 0.5%; 
+    
+    margin-bottom: 0.5%;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 32%;
+    height: 50px;
+    border: 0 !important;
+    /* margin-left: -25%; */
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #088759;
+    /* flex-shrink: 0;  */
+  }

@@ -1,0 +1,43 @@
+/* GridComponent.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .grid-item {
+    text-align: center;
+    // padding: 20px;
+    // border: 1px solid #ccc;
+    // box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .grid-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .grid-item p {
+    font-size: 14px;
+  }
+  
+
+
+  // .grid-container-rsl-1{
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr); /* Three equal columns */
+  //   gap: 20px; /* Gap between grid items */
+  // }
+
+
+
+  // .grid-item-rsl-1 {
+  //   text-align: center;
+  //   padding: 20px;
+ 
+  // }

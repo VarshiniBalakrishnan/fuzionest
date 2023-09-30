@@ -1,0 +1,86 @@
+.banner-area5{
+    // background-color: #0217A2;
+    background-size: cover;
+    margin-top: -120px;
+  height: 50%;
+}
+
+.button-servicehome{
+   align-items: center;
+   margin-left: 90%;
+   width: 100%;
+   
+}
+
+.servicepage4-col4{
+  margin-left: -1%;
+}
+
+
+.servicehomepage2-title{
+  font-weight: 700;
+  text-align: center;
+  margin-left: 62%;
+  width: 100%;
+}
+.content5{
+    margin-left: 50%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    // padding: 0% 10%;
+    // text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+     font-weight: lighter;
+     width: 130%;
+     font-size: 14px;
+     padding: 0% 1%;
+}
+
+
+.servicepage4-design{
+  margin-bottom: 5%;
+}
+
+
+.button-service2{
+  margin-left: 60%;
+}
+
+.btn-border-base10{
+    height: 55px;
+  line-height: 55px;
+  padding: 0 30px;
+  margin-left: 10%;
+  border-radius: 0;
+  background-color: #088759;
+  color: #088759;
+  overflow: hidden;
+  position: relative;
+  border: 0;
+  @include transition(all, 1.3s, ease);
+  font-weight: 600;
+  border-radius: 30px;
+  z-index: 0;
+  line-height: 52px;
+  &:after {
+    background: #088759;
+    color: #fff;
+  }
+  &:hover,
+  &:focus {
+   
+    color: #fff;
+}
+
+}
+.content8{
+    width: 200%;
+   
+    font-size: 14px;
+    margin-left: 7%;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: -15%;
+
+}

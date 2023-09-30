@@ -1,0 +1,110 @@
+.servicepageone-heading{
+    .content2{
+        font-weight: bolder;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .contentpara5{
+        font-size: 14px;
+        // font-weight: bold;
+        
+        text-align: center;
+    }
+
+   
+}
+
+.containerservice {
+    margin-top: 50px; /* Adjust the top margin as needed */
+    align-items: center;
+    justify-content: center; 
+}
+
+.animate-img-servicehome{
+    height: 120px;
+    width: 120px;
+    margin-left: 30%;
+    // margin-top: -20%;
+}
+
+.row {
+   
+    margin-bottom: 40px; /* Add margin between rows */
+  }
+
+ .row .col-md-3 {
+    
+     padding: 20px;
+    //  margin: 0 20px;
+  //   width: 25%;
+  //   height: 55%;
+     border-radius: 15px;
+     border: none;
+    box-shadow: 0px 2px 8px rgba(57, 57, 57, 0.1);
+  //   margin-bottom: 20px;
+    background-color: #ffffff;
+   }
+
+.row-aboutpage5-container .grid-item-about{
+  border-radius: 25px;
+}
+
+   
+  .row-aboutpage5-container{
+    margin-left: 22%;
+    width: 100%;
+  }
+
+  .main-img-aboutpage5{
+    height: 70%;
+    width: 93%; 
+  }
+
+
+  .servicehead6 {
+    font-size: 16px;
+  }
+
+
+  .service-steps{
+    float: right;
+    color: black;
+    font-weight: bold;
+    margin-left: -150%;
+  }
+
+
+  .service-percentage{
+    color: #253284;
+    margin-left: 8%;
+  }
+
+ 
+.column {
+    float: left;
+    width: 50%;
+    // padding: 20px;
+    margin-top: 10%;
+    margin-bottom: -10%;
+   
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+//   .service-percentage{
+//     float: right;
+//   }
+
+
+.servicehomepage-p{
+  font-size: 14px;
+  line-height: 23px;
+}

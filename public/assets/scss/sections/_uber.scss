@@ -1,0 +1,108 @@
+.serviceheading1{
+    // padding-left: 16%;
+    align-items: center;
+    font-size: 600%;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* .para{
+    padding-left: 38%;
+    align-items: center;
+   
+    font-weight: 700;
+} */
+
+.para {
+    text-align: center;
+    font-weight: 700;
+    font-size: 120%;
+    width: 35%;
+    padding-left: 34%;
+    margin-top: -2%;
+}
+
+/* .para3{
+    padding-left: 42%;
+    align-items: center;
+    font-weight: 700;
+   
+} */
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 30px; /* Gap between cards */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 5%;
+
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    padding: 0px;
+    // margin-top: 3%;
+    // width: 70%;
+    text-align: center;
+    align-items: center;
+    margin-left: 50%;
+    border: none;
+    width: 10%;
+  }
+  
+  .card-title1 {
+    font-size: 100%;
+    padding-top: 10%;
+    /* margin: 15px 0 10px; */
+    text-align: center;
+    /* padding-left: 20%; */
+  }
+  
+  .card-content {
+    font-size: 1rem;
+    margin: 0;
+    color: #455065;
+  }
+
+
+  .logoo-container {
+    background-color: #253284;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    align-items: center;
+    /* border-top-left-radius: 1%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 1%;
+    border-bottom-left-radius: 40%; */
+  }
+  
+
+
+  /* Aboutus.css */
+.submitbutton {
+    background-color: transparent;
+     color: blue; 
+    /* border: 2px solid blue; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .submitbutton:hover {
+    text-decoration: underline;
+    /* background-color: blue; 
+    color: rgb(19, 49, 247); */
+  }
+  

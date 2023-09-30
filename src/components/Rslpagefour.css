@@ -1,0 +1,100 @@
+/* GridComponent.css */
+.grid-container-rsl {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: -20px;
+    
+    align-items: center;
+    padding: 0 15%;
+    margin-top: 20%;
+  }
+  
+  .grid-item-rsl {
+    text-align: center;
+    padding: 10px;
+   
+  }
+  
+  .grid-item-rsl img {
+    max-width: 100%;
+    
+  }
+  
+  .grid-item-rsl h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #253284;
+    text-align: start;
+  }
+  
+  .grid-item-rsl p {
+    text-align: start;
+    margin-bottom: 10%;
+    line-height: 70%;
+  }
+  
+
+
+
+
+
+/* 
+  .grid-container-rsl-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    gap: 0px;
+    width: 100%;
+    align-items: center;
+    padding: 0 45%;
+  }
+  
+  .grid-item-rsl-1 {
+    text-align: center;
+    padding: 10px;
+   
+  }
+  
+  .grid-item-rsl-1 img {
+    max-width: 100%;
+    
+  }
+  
+  .grid-item-rsl-1 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #253284;
+    text-align: start;
+  }
+  
+  .grid-item-rsl-1 p {
+    text-align: start;
+    margin-bottom: 10%;
+    line-height: 70%;
+  }
+   */
+
+
+
+   .rsl-row{
+    width: 100%;
+    border: none;
+   }
+
+
+   .card-rsl{
+    border: none;
+    width: 100%;
+   }
+
+
+   .card-title{
+    text-align: left;
+    color: #253284;
+    font-size: 25px;
+    /* color: #253284; */
+   }
+
+
+   .card-text{
+    text-align: left;
+   }

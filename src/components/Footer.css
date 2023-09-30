@@ -1,0 +1,115 @@
+/* Footer styles for larger screens */
+.footer {
+  background-color: #253284;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-row {
+  display: flex;
+  border-bottom: 1px solid #FFFFFF;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-right: 5%;
+}
+
+h5 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-row .footerheading {
+  font-size: 18px;
+  margin-right: 3%;
+  margin-top: 0.6%;
+  border-right: 1px solid #FFFFFF;
+  padding-right: 10px;
+  color: white;
+}
+
+.footer-row p {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-row1 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.icon-round {
+  margin-left: 50%;
+  margin-top: -1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  /* margin-left: 10px; */
+}
+
+
+.footerheading-para {
+  margin-top: 1%;
+}
+
+.round-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.footer-heading{
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+
+
+  .footer-heading{
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  .footer-column {
+    flex: 1;
+    margin: 0;
+    padding: 20px 0;
+    /* text-align: center; */
+  }
+
+
+  .footer-row .footerheading {
+    
+    border-right: none;
+   
+  }
+
+  .icon-round {
+    margin-left: 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  }
+}

@@ -1,0 +1,39 @@
+/* YourComponent.css */
+
+/* CSS for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the first row */
+    grid-gap: 10px; /* Adjust the gap between grid items as needed */
+  }
+  
+  /* CSS for grid items */
+  .grid-item {
+    /* background-color: #f4f4f4; */
+    /* padding: 20px; */
+    text-align: center;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); */
+    margin: 0;
+  }
+  
+  /* Styling for images */
+  .grid-item img {
+    max-width: 100%;
+   
+  }
+  
+  /* Styling for headings */
+  .grid-item h3 {
+    margin: 10px 0;
+  }
+  
+  /* Styling for content */
+  .grid-item p {
+    color: #333;
+  }
+  
+
+  .animate-img-aboutpage4{
+    width: 50%;
+    height: 50%;
+  }

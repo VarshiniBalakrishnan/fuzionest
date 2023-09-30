@@ -1,0 +1,30 @@
+/* Style for the navigation bar */
+.navbar {
+   /* Background color for the navbar */
+    // padding: 0 140px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the navigation links */
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between links as needed */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(158, 155, 155); /* Text color for the links */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  /* Style for the navigation links on hover */
+  .navbar a:hover {
+    // border-bottom: 2px solid black;
+    color: #070707; /* Text color on hover */
+  }
+  

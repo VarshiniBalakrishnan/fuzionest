@@ -1,0 +1,62 @@
+/* Map.css */
+.Map-container {
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    
+  }
+  
+  .Map {
+    position: relative; /* Needed for positioning of .Mapbox */
+  }
+  
+  .Mapheading {
+    color: rgb(71, 70, 70);
+    text-align: center;
+    font-size: 250%;
+    margin-top: 6%;
+    margin-bottom: -1%;
+  }
+  
+  .Map-image {
+    margin-top: 5%;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    width: 60%;
+    height: 60%;
+    margin-left: 22%;
+    object-fit: cover;
+    /* z-index: -1;  */
+  }
+  
+  .Mapbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17%;
+    height: 15%;
+    /* padding: 5px; */
+    border-radius: 60px;
+    text-align: center;
+    background-color: white; /* White background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow */
+  }
+  
+  .Mapnum {
+    margin-top: 4%;
+    font-size: 170%;
+    color: #253284;
+    font-weight: 700;
+    text-align: center;
+    font-family:  'Inter', sans-serif;
+  }
+  
+  .Mappara {
+    font-weight: bold;
+    margin-top: -8%;
+    color: black;
+    text-align: center;
+  }
+  

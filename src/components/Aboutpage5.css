@@ -1,0 +1,131 @@
+/* Aboutpage5.css */
+
+.grid-container-about {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    grid-gap: 20px; /* Gap between grid items */
+    padding: 0 15%;
+    margin-bottom: 5%;
+  }
+  
+  /* .grid-item-about {
+    text-align: center;
+  border-radius: 6%;
+
+  width: 95%;
+  height: 100%; 
+  box-shadow: 0 4.4px 30px rgba(19, 16, 34, 0.05);
+  } */
+  
+  /* .grid-item-about img {
+    max-width: 100%;
+    height: 70%;
+     width: 93%;   
+    padding: 0% 0%;
+    border-radius: 6%;
+    padding: 0% -10%; */
+    
+    /* margin-left: -5%; */
+    /* margin-right: -5%; */
+    /* flex-shrink: 0;
+    margin-top: 3%;
+  } */
+  
+  .grid-item-about h3 {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 1% 0%;
+    /* line-height: 10%; */
+    margin-top: 12%;
+  }
+  
+  .grid-item-about p {
+    font-size: 14px;
+    /* margin-bottom: -20%; */
+  
+  }
+/*   
+  .main-img-aboutpage5{
+    height: 40%;
+    border-radius: 20%;
+  } */
+
+
+
+  /* .main-lsimg-aboutpages{
+    align-items: center;
+    width: 500%;
+    height: 150%;
+    margin-left: 40%;
+  } */
+
+
+
+  .GroupPic-aboutpages{
+   margin-top: 5%;
+   /* margin-left: 70%; */
+   /* padding-left: 70%; */
+   /* width: 300%; */
+   width: 80%;
+   margin-left: -5%;
+   align-items: center;
+   /* style={{maxWidth: '200%', alignItems: 'center'}} */
+  }
+ 
+  
+  .bluebox-aboutpage{
+    /* max-width: 80%;  */
+     /* margin-left: 110%;   */
+      /* margin-top: -10%; */
+      background-color:#253284 ;
+      position: absolute;
+       margin-top: -5%; 
+      width: 70%;
+      /* margin-left: 100%; */
+      margin-bottom: 5%;
+   } 
+
+
+
+  /* style={{
+    backgroundColor: '#253284',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+  }} */
+  .bluebox-aboutpage h5{
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+  }
+
+
+  .bluebox-aboutpage p{
+    color: white;
+    text-align: center;
+    padding: 0% 7%; 
+    width: 99%;
+    font-size: 14px;
+    /* font-weight: bold; */
+  }
+
+
+
+  .rounded-icon-1{
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+
+
+  .row-aboutpage5-container{
+    margin-left: 25%;
+    width: 100%;
+  }
+
+
+  .main-img-aboutpage5{
+    border-radius: 5%;
+    /* width: 120%; */
+  }
